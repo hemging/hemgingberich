@@ -30,13 +30,13 @@
 
         /* 버튼 스타일 */
         .third {
-          border-color: $blue;
+          border-color: #e74c3c;
           color: #fff;
-          box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+          box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 #e74c3c;
           transition: all 150ms ease-in-out;
           
           &:hover {
-            box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+            box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px #e74c3c;
           }
         }
 
