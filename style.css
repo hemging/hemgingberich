@@ -29,21 +29,15 @@
         }
 
         /* 버튼 스타일 */
-        button {
-            background-color: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: 1em;
-            cursor: pointer;
-            margin-top: 1em;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        button:hover {
-            background-color: #d9ff00;
-            color: rgb(255, 14, 215);
+        .third {
+          border-color: $blue;
+          color: #fff;
+          box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+          transition: all 150ms ease-in-out;
+          
+          &:hover {
+            box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+          }
         }
 
         /* 상품 컨테이너 스타일 */
